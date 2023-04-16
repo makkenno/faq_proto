@@ -1,4 +1,11 @@
 module.exports = {
+  settings: {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src"]
+      }
+    }
+  },
   plugins: [
     "sort-keys-custom-order",
     "simple-import-sort",
